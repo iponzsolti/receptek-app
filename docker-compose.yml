@@ -1,0 +1,66 @@
+version: '2'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: newipon
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - /srv/data/mysql:/var/lib/mysql
+    command: mysqld --sql_mode=""
+
+  app:
+#    hostname: docker-ipon
+    build:
+      context: ./etc/docker/dev/app
+    depends_on:
+      - db
+#    environment:
+#      DATABASE_HOST: db
+#      DATABASE_NAME: newipon
+#      DATABASE_USER: root
+#      DATABASE_PASSWORD: root
+#      DATABASE_VERSION: 5.7
+    volumes:
+      - .:/app
+      - ~/.ssh/:/root/.ssh/
+
+  web:
+    image: nginx:1-alpine
+    depends_on:
+      - app
+    ports:
+      - 80:80
+    volumes:
+      - ./etc/docker/dev/web/default.conf:/etc/nginx/conf.d/default.conf
+    volumes_from:
+      - app
+
+  node:
+    build:
+      context: ./etc/docker/dev/node
+    depends_on:
+      - app
+    volumes_from:
+      - app
+    tty: true
+
+  redis:
+    image: redis:3
+
+  redis-commander:
+    image: tenstartups/redis-commander
+    command: --redis-host redis
+    depends_on:
+      - redis
+    ports:
+      - 8079:8081
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+    ports:
+      - 8080:80
