@@ -1,7 +1,7 @@
 FROM php:7.2-fpm-alpine
 MAINTAINER lordjancso <lordjancso@gmail.com>
 
-ENV COMPOSER_VERSION=1.7.2 COMPOSER_ALLOW_SUPERUSER=1
+ENV COMPOSER_VERSION=1.8.4 COMPOSER_ALLOW_SUPERUSER=1
 ENV SYMFONY_ENV=dev
 
 # gd
@@ -25,6 +25,14 @@ RUN apk add --no-cache icu icu-dev \
 RUN apk add --no-cache libxml2-dev php-soap \
     && docker-php-ext-install soap \
     && apk del --no-cache libxml2-dev php-soap
+
+# redis
+RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/4.3.0.tar.gz \
+    && tar xfz /tmp/redis.tar.gz \
+    && rm -r /tmp/redis.tar.gz \
+    && mkdir -p /usr/src/php/ext \
+    && mv phpredis-* /usr/src/php/ext/redis \
+    && docker-php-ext-install redis
 
 RUN docker-php-ext-install -j$(getconf _NPROCESSORS_ONLN) iconv mbstring pdo_mysql \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=${COMPOSER_VERSION} \

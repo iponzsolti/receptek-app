@@ -12,7 +12,6 @@ services:
     command: mysqld --sql_mode=""
 
   app:
-#    hostname: docker-ipon
     build:
       context: ./etc/docker/dev/app
     depends_on:
@@ -48,15 +47,16 @@ services:
     tty: true
 
   redis:
-    image: redis:3
+    image: redis:5
 
   redis-commander:
-    image: tenstartups/redis-commander
-    command: --redis-host redis
+    image: rediscommander/redis-commander
+    environment:
+      REDIS_HOSTS: local:redis:6379
     depends_on:
       - redis
     ports:
-      - 8079:8081
+      - 8081:8081
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
