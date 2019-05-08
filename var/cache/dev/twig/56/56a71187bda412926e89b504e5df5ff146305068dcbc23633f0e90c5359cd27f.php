@@ -67,6 +67,6 @@ class __TwigTemplate_5bbb63efd0eff400bba2e61e1fdac84c2f81366e18a0d6a55b806d084c1
 <?php echo \$view['form']->rest(\$form) ?>
 <?php endif ?>
 </form>
-", "@Framework/Form/form_end.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_end.html.php");
+", "@Framework/Form/form_end.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_end.html.php");
     }
 }

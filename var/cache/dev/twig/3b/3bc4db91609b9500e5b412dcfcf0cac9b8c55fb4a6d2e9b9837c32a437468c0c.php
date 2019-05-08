@@ -67,6 +67,6 @@ class __TwigTemplate_f373abb8faa371a9c23197ba62ad916fb17a0a5b57940c9020869271f6c
     <?php \$help_attr['class'] = isset(\$help_attr['class']) ? trim(\$help_attr['class'].' help-text') : 'help-text'; ?>
     <p id=\"<?php echo \$view->escape(\$id); ?>_help\" <?php echo ' '.\$view['form']->block(\$form, 'attributes', ['attr' => \$help_attr]); ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$help, [], \$translation_domain) : \$help); ?></p>
 <?php endif; ?>
-", "@Framework/Form/form_help.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_help.html.php");
+", "@Framework/Form/form_help.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_help.html.php");
     }
 }

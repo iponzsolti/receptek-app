@@ -63,6 +63,6 @@ class __TwigTemplate_4e5554df9a40f263ea544cc3ede46b1c4e69ceb9be89744ef7cecd2fd5e
     {
         return new Source("id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\"<?php if (\$disabled): ?> disabled=\"disabled\"<?php endif ?>
 <?php echo \$attr ? ' '.\$view['form']->block(\$form, 'attributes') : '' ?>
-", "@Framework/Form/button_attributes.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/button_attributes.html.php");
+", "@Framework/Form/button_attributes.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/button_attributes.html.php");
     }
 }

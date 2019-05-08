@@ -57,6 +57,6 @@ class __TwigTemplate_588581a1f15f03722ef5c7b0fbf1723bd1b9466471fb827b4ac19c58c8c
 
     public function getSourceContext()
     {
-        return new Source("", "@Framework/Form/button_label.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/button_label.html.php");
+        return new Source("", "@Framework/Form/button_label.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/button_label.html.php");
     }
 }

@@ -78,6 +78,6 @@ class __TwigTemplate_3cec8b1730caaa0f6e6033962bbd9af7a9c1f64b14e746cac68585b74c5
     public function getSourceContext()
     {
         return new Source("{% block panel '' %}
-", "@WebProfiler/Profiler/ajax_layout.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/ajax_layout.html.twig");
+", "@WebProfiler/Profiler/ajax_layout.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/ajax_layout.html.twig");
     }
 }

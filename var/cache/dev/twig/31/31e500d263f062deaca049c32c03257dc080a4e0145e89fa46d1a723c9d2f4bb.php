@@ -1004,6 +1004,6 @@ class __TwigTemplate_4660109c8ee25e40e61ad5e0ad765706bd8dfb3c2959fba4dad0416c6c6
         {% endif %}
     {% endfor %}
 {% endblock %}
-", "@Swiftmailer/Collector/swiftmailer.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
+", "@Swiftmailer/Collector/swiftmailer.html.twig", "/app/my-project/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig");
     }
 }

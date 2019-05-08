@@ -61,6 +61,6 @@ class __TwigTemplate_a00b87122e08bcc291d4604e953d503ee46443cc5bf995e3a7b320bddbf
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'choice_widget_options') ?>
-", "@Framework/Form/choice_options.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/choice_options.html.php");
+", "@Framework/Form/choice_options.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/choice_options.html.php");
     }
 }

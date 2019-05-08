@@ -61,6 +61,6 @@ class __TwigTemplate_8108609f8da8b981f967f14d905bcd3afaeeb0ba239da28dfa65f950279
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', ['type' => isset(\$type) ? \$type : 'text']) ?> %
-", "@Framework/Form/percent_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/percent_widget.html.php");
+", "@Framework/Form/percent_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/percent_widget.html.php");
     }
 }

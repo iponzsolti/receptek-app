@@ -415,6 +415,6 @@ class __TwigTemplate_c76736b4715f3eaaa04a2b64ce7954d060782cf3ccb1b8341f6448e9da9
     });
 })();
 </script>
-", "@WebProfiler/Profiler/settings.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
+", "@WebProfiler/Profiler/settings.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
     }
 }

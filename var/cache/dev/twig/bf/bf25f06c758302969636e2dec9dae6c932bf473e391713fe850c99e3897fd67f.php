@@ -93,6 +93,6 @@ class __TwigTemplate_af89fe5129dfadf62409c69d3838cb36f263f89f5e6bb78337ec7781a2f
             </trace>
 {% endfor %}
         </traces>
-", "@Twig/Exception/traces.xml.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
+", "@Twig/Exception/traces.xml.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/traces.xml.twig");
     }
 }

@@ -77,6 +77,6 @@ class __TwigTemplate_53ee8b8287a7feaee6a136757f90a301caf90ac08b7d89a91896f797b86
 <?php printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)) ?>
 <?php endif ?>
 <?php endforeach ?>
-", "@Framework/Form/attributes.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/attributes.html.php");
+", "@Framework/Form/attributes.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/attributes.html.php");
     }
 }

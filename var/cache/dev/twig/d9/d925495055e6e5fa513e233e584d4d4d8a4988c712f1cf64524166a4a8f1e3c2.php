@@ -222,6 +222,6 @@ class __TwigTemplate_f28ae2621533ab0e90f472be5bbff5105895e1f7cc15424acb84c2aa30a
         {{ include('@Twig/base_js.html.twig') }}
     </body>
 </html>
-", "@Twig/layout.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
+", "@Twig/layout.html.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/layout.html.twig");
     }
 }

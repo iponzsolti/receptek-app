@@ -67,6 +67,6 @@ class __TwigTemplate_7828a08b6935904858d466822353bd95cf34d4e8f82efde1ba6e1cb47c2
     ? strtr(\$label_format, ['%name%' => \$name, '%id%' => \$id])
     : \$view['form']->humanize(\$name); } ?>
 <button type=\"<?php echo isset(\$type) ? \$view->escape(\$type) : 'button' ?>\" <?php echo \$view['form']->block(\$form, 'button_attributes') ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$label, [], \$translation_domain) : \$label) ?></button>
-", "@Framework/Form/button_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/button_widget.html.php");
+", "@Framework/Form/button_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/button_widget.html.php");
     }
 }

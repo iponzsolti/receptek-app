@@ -65,6 +65,6 @@ class __TwigTemplate_39fa9d15caa50a22eebbb8d576521590e42702b9b3ba6deed3f4d86eb89
         return new Source("<div>
     <?php echo \$view['form']->widget(\$form) ?>
 </div>
-", "@Framework/Form/button_row.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/button_row.html.php");
+", "@Framework/Form/button_row.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/button_row.html.php");
     }
 }

@@ -150,6 +150,6 @@ class __TwigTemplate_cc5527e7f8e0cb553dcd08a86530c662e8b028f7622686c40b7f52deee4
 {% block panel %}
     {{ render(path('_profiler_router', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

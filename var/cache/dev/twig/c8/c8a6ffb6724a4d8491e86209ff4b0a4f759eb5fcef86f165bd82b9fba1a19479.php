@@ -69,6 +69,6 @@ class __TwigTemplate_c252c97f2798f70a36a8d27aad1f3c9f79c2bd936694697be24425d0d35
     <?php if (strlen(\$value) > 0): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?>
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/checkbox_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php");
+", "@Framework/Form/checkbox_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/checkbox_widget.html.php");
     }
 }

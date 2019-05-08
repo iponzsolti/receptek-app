@@ -69,6 +69,6 @@ class __TwigTemplate_40a456ccfd4180c47f76e45facf92912e9fd94b43fd18afafedace34894
         <?php echo \$view['form']->row(\$child) ?>
     <?php endif; ?>
 <?php endforeach; ?>
-", "@Framework/Form/form_rows.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_rows.html.php");
+", "@Framework/Form/form_rows.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_rows.html.php");
     }
 }

@@ -152,6 +152,6 @@ class __TwigTemplate_6237333e4ce5ee503b6fe06df1f9702088aa4e7b010679de5f7133d469f
     <h2>{{ messages[about].title }}</h2>
     <p>{{ messages[about].message }}</p>
 {% endblock %}
-", "@WebProfiler/Profiler/info.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
+", "@WebProfiler/Profiler/info.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/info.html.twig");
     }
 }

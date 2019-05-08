@@ -1668,6 +1668,6 @@ class __TwigTemplate_263ed785ae14e1ac88c75a023551e31536aaf10f972a7a203884a40248b
         <canvas width=\"680\" height=\"\" id=\"{{ id }}\" class=\"timeline\"></canvas>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
     }
 }

@@ -1385,6 +1385,6 @@ class __TwigTemplate_c0b92d726f88423e8ceb0bbd35c0a4913d73d3fa0fe619b1e1d8ade1ed3
         </small>
     {%- endif -%}
 {%- endblock form_help %}
-", "bootstrap_4_layout.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_4_layout.html.twig");
+", "bootstrap_4_layout.html.twig", "/app/my-project/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_4_layout.html.twig");
     }
 }

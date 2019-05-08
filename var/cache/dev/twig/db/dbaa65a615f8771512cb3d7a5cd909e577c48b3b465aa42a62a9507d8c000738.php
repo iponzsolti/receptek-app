@@ -102,6 +102,6 @@ class __TwigTemplate_7ee9008e4412724ecfcd6633060be5b15ca5454f679e40dd508b38b4412
   {{ include('@Twig/Exception/trace.txt.twig', { trace: trace }, with_context = false) }}
 {% endfor %}
 {% endif %}
-", "@Twig/Exception/traces.txt.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/traces.txt.twig");
+", "@Twig/Exception/traces.txt.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/traces.txt.twig");
     }
 }

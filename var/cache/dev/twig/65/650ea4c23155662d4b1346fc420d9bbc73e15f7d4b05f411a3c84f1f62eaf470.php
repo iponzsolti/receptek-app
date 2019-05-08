@@ -69,6 +69,6 @@ class __TwigTemplate_229acaf8779852b42e28e888ec213786b9b4b0d5322420c71e6533ffde1
 <?php else: ?>
 <?php echo \$view['form']->block(\$form, 'form_widget_simple')?>
 <?php endif ?>
-", "@Framework/Form/form_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
+", "@Framework/Form/form_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_widget.html.php");
     }
 }

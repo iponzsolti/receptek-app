@@ -71,6 +71,6 @@ class __TwigTemplate_08414683fa65397dab091a08c5834a81babc0de305ec930e77f5fdc70d0
         <?php echo \$view['form']->widget(\$form); ?>
     </td>
 </tr>
-", "@Framework/FormTable/button_row.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/FormTable/button_row.html.php");
+", "@Framework/FormTable/button_row.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/FormTable/button_row.html.php");
     }
 }

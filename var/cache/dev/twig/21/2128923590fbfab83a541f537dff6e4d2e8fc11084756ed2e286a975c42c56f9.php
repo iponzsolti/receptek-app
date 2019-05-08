@@ -61,6 +61,6 @@ class __TwigTemplate_37baced7e6604d017d701556c34efc44002b47008b79c21559fe1a57f18
     public function getSourceContext()
     {
         return new Source("<textarea <?php echo \$view['form']->block(\$form, 'widget_attributes') ?>><?php echo \$view->escape(\$value) ?></textarea>
-", "@Framework/Form/textarea_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/textarea_widget.html.php");
+", "@Framework/Form/textarea_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/textarea_widget.html.php");
     }
 }

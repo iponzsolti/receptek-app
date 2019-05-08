@@ -61,6 +61,6 @@ class __TwigTemplate_f6f2d200af8788f9f7a3b3cbdba284499701c67e691601b6a1b5f7de816
     public function getSourceContext()
     {
         return new Source("<svg width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#FFF\" d=\"M1363 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L531 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z\"/></svg>
-", "@Twig/images/chevron-right.svg", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/images/chevron-right.svg");
+", "@Twig/images/chevron-right.svg", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/images/chevron-right.svg");
     }
 }

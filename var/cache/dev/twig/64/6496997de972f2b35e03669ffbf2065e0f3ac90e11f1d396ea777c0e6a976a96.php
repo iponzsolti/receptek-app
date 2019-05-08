@@ -2209,6 +2209,6 @@ $context["attrvalue"] === false)) {
         {%- endif -%}
     {%- endfor -%}
 {%- endblock attributes -%}
-", "form_div_layout.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bridge/Resources/views/Form/form_div_layout.html.twig");
+", "form_div_layout.html.twig", "/app/my-project/vendor/symfony/twig-bridge/Resources/views/Form/form_div_layout.html.twig");
     }
 }

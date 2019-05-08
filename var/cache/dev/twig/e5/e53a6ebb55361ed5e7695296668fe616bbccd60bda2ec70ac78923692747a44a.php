@@ -2072,6 +2072,6 @@ class __TwigTemplate_2ac3a237673f4b00e32d88554a495a0a21b9764ada139dff615e7d1e045
         {{ tree.form_tree_details(childName, childData, forms_by_hash) }}
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/form.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
+", "@WebProfiler/Collector/form.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
     }
 }

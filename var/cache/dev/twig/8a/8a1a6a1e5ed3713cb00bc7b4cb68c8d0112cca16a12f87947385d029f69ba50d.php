@@ -77,6 +77,6 @@ class __TwigTemplate_2511b401752ea088aad748b73755623d6a718e9e8f090541566373bbb86
 {{ status_code }} {{ status_text }}
 
 */
-", "@Twig/Exception/error.css.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/error.css.twig");
+", "@Twig/Exception/error.css.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/error.css.twig");
     }
 }

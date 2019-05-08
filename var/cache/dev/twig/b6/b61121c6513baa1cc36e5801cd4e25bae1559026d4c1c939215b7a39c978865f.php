@@ -69,6 +69,6 @@ class __TwigTemplate_49a5a86a4a499682fa8bb15a5abb007f95e1efe7ebb9b0972a1bca8481a
 <?php else: ?>
 <?php echo \$view['form']->block(\$form, 'choice_widget_collapsed') ?>
 <?php endif ?>
-", "@Framework/Form/choice_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/choice_widget.html.php");
+", "@Framework/Form/choice_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/choice_widget.html.php");
     }
 }

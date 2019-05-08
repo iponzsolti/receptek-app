@@ -167,6 +167,6 @@ class __TwigTemplate_ac65b960a81cc28e41fe7a10cc7a865a7273843b9847b02d34204f1eb33
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/templates/base.html.twig");
+", "base.html.twig", "/app/my-project/templates/base.html.twig");
     }
 }

@@ -928,6 +928,6 @@ class __TwigTemplate_be0c05412d5c723742e554e202b2d1cfb40ea450a01fb485dff08d0d0a3
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/translation.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
+", "@WebProfiler/Collector/translation.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
     }
 }

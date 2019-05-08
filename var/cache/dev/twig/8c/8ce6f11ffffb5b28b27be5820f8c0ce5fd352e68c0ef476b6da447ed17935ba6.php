@@ -73,6 +73,6 @@ class __TwigTemplate_22441114a33d17e0dc88eaa804db0a9ef64ab3a8db7834af16bdca2f304
         return new Source("/*
 {{ include('@Twig/Exception/exception.txt.twig', { exception: exception }) }}
 */
-", "@Twig/Exception/exception.js.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/exception.js.twig");
+", "@Twig/Exception/exception.js.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/exception.js.twig");
     }
 }

@@ -69,6 +69,6 @@ class __TwigTemplate_b1e0e9cc06679326193ad93f838370464b2ffa9c96dcb0aeabb1c1694b2
     value=\"<?php echo \$view->escape(\$value) ?>\"
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/radio_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
+", "@Framework/Form/radio_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
     }
 }

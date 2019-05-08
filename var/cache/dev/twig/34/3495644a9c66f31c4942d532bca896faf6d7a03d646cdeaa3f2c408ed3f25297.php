@@ -260,6 +260,6 @@ class __TwigTemplate_6b993b9f5ad72732f29b8e8b3b5d6890b8d0471549fe9bea61951cef697
         {{- form_rest(form) -}}
     </table>
 {%- endblock form_widget_compound -%}
-", "form_table_layout.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
+", "form_table_layout.html.twig", "/app/my-project/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
     }
 }

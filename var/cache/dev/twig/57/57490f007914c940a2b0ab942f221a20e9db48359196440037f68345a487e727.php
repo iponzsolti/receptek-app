@@ -75,6 +75,6 @@ class __TwigTemplate_28bce03343b7e00c90ef6bd3362f0eec18eec5229b5aa37e9a71102a84f
     : \$view['form']->humanize(\$name); } ?>
 <label<?php if (\$label_attr) { echo ' '.\$view['form']->block(\$form, 'attributes', ['attr' => \$label_attr]); } ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$label, [], \$translation_domain) : \$label) ?></label>
 <?php endif ?>
-", "@Framework/Form/form_label.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_label.html.php");
+", "@Framework/Form/form_label.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_label.html.php");
     }
 }

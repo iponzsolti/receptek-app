@@ -67,6 +67,6 @@ class __TwigTemplate_6181c98249ae2a99d15f282ad214cd43b1e5ad2050480442f0bea4cc506
     public function getSourceContext()
     {
         return new Source("{{ include('@Twig/Exception/exception.xml.twig', { exception: exception }) }}
-", "@Twig/Exception/exception.atom.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/exception.atom.twig");
+", "@Twig/Exception/exception.atom.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/exception.atom.twig");
     }
 }

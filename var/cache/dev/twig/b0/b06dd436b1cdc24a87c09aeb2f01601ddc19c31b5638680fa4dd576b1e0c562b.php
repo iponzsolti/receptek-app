@@ -73,6 +73,6 @@ class __TwigTemplate_fb65429847068e8d2ce7cdc8eb0e5af50063b27fcccdd742abd2ff6adfb
         <?php echo \$view['form']->widget(\$form['date']).' '.\$view['form']->widget(\$form['time']) ?>
     </div>
 <?php endif ?>
-", "@Framework/Form/datetime_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/datetime_widget.html.php");
+", "@Framework/Form/datetime_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/datetime_widget.html.php");
     }
 }

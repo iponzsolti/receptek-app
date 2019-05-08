@@ -73,6 +73,6 @@ class __TwigTemplate_585faf079047d5294b1ed0f89573e19dab57a0842dee27f22def4db2882
     <?php echo \$view['form']->block(\$form, 'form_rows') ?>
     <?php echo \$view['form']->rest(\$form) ?>
 </div>
-", "@Framework/Form/form_widget_compound.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_compound.html.php");
+", "@Framework/Form/form_widget_compound.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_widget_compound.html.php");
     }
 }

@@ -67,6 +67,6 @@ class __TwigTemplate_854a3f4755ce00fa61408adc479aabf1c656f18da2710a6e66becf9dc18
     <?php \$attr['data-prototype'] = \$view->escape(\$view['form']->row(\$prototype)) ?>
 <?php endif ?>
 <?php echo \$view['form']->widget(\$form, ['attr' => \$attr]) ?>
-", "@Framework/Form/collection_widget.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/collection_widget.html.php");
+", "@Framework/Form/collection_widget.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/collection_widget.html.php");
     }
 }

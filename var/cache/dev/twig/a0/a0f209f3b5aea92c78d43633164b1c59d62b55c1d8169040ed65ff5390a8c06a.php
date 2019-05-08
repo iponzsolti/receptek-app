@@ -73,6 +73,6 @@ class __TwigTemplate_b7b03a3007cbba36c417e29ce2762d557e14633799d169f0ec71f6baabe
         <?php endforeach; ?>
     </ul>
 <?php endif ?>
-", "@Framework/Form/form_errors.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php");
+", "@Framework/Form/form_errors.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/form_errors.html.php");
     }
 }

@@ -77,6 +77,6 @@ class __TwigTemplate_a9b8b94ec072c04546bce56f39fdaea6a73d7d81615cfce9a7b00a7f31b
         return new Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "@Twig/Exception/error.xml.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
+", "@Twig/Exception/error.xml.twig", "/app/my-project/vendor/symfony/twig-bundle/Resources/views/Exception/error.xml.twig");
     }
 }

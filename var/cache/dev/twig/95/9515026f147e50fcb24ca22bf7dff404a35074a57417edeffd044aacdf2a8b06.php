@@ -61,6 +61,6 @@ class __TwigTemplate_29d16bdc2eb5f363158a406c572146aeee72f50eab2e762fa8de0c6b2fd
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'widget_container_attributes') ?>
-", "@Framework/Form/container_attributes.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/container_attributes.html.php");
+", "@Framework/Form/container_attributes.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/container_attributes.html.php");
     }
 }

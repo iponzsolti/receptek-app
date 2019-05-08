@@ -61,6 +61,6 @@ class __TwigTemplate_56914b2b288ca8724ce97f7137409d49d34e70d747528eee6163c6ac51d
     public function getSourceContext()
     {
         return new Source("<?php echo \$view['form']->block(\$form, 'form_rows') ?>
-", "@Framework/Form/repeated_row.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/repeated_row.html.php");
+", "@Framework/Form/repeated_row.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/repeated_row.html.php");
     }
 }

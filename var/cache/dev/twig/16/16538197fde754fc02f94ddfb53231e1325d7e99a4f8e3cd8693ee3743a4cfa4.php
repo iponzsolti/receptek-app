@@ -69,6 +69,6 @@ class __TwigTemplate_015870b799361e0b51510e8a23d275e70b88caa37e8cb1b6c1b521c2342
         <?php echo \$view['form']->widget(\$form); ?>
     </td>
 </tr>
-", "@Framework/FormTable/hidden_row.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
+", "@Framework/FormTable/hidden_row.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/FormTable/hidden_row.html.php");
     }
 }

@@ -1123,6 +1123,6 @@ class __TwigTemplate_2c8b5e89cbb1f7f42bf9fa266e89e65d309fafccafe6dbb05ae18bdf66b
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }

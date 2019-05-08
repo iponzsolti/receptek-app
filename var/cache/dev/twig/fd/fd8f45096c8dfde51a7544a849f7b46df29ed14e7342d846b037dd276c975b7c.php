@@ -157,6 +157,6 @@ class __TwigTemplate_8e6c4725ba5c18d3d5e7ceb6c1418340b8267179735330dff061c4384a4
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: profiler_url, name: 'time', status: status_color }) }}
 {% endblock %}
-", "@WebProfiler/Collector/memory.html.twig", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/memory.html.twig");
+", "@WebProfiler/Collector/memory.html.twig", "/app/my-project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/memory.html.twig");
     }
 }

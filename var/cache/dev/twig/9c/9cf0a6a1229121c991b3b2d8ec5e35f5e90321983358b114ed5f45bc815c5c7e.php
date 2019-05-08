@@ -75,6 +75,6 @@ class __TwigTemplate_6c88b4e89e043d7f0fcf56a211c7f3e8ad75a296f2e0e044a8358d0650b
 <?php printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)) ?>
 <?php endif ?>
 <?php endforeach ?>
-", "@Framework/Form/choice_attributes.html.php", "/home/komplexgyok/Workspace/receptek-app/receptek-app/vendor/symfony/framework-bundle/Resources/views/Form/choice_attributes.html.php");
+", "@Framework/Form/choice_attributes.html.php", "/app/my-project/vendor/symfony/framework-bundle/Resources/views/Form/choice_attributes.html.php");
     }
 }
