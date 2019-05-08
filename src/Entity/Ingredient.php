@@ -7,9 +7,9 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\IngredientsRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\IngredientRepository")
  */
-class Ingredients
+class Ingredient
 {
     /**
      * @ORM\Id()
@@ -24,7 +24,7 @@ class Ingredients
     private $name;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Recipes", mappedBy="ingredients")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Recipe", mappedBy="ingredients")
      */
     private $recipes;
 
@@ -51,14 +51,14 @@ class Ingredients
     }
 
     /**
-     * @return Collection|Recipes[]
+     * @return Collection|Recipe[]
      */
     public function getRecipes(): Collection
     {
         return $this->recipes;
     }
 
-    public function addRecipe(Recipes $recipe): self
+    public function addRecipe(Recipe $recipe): self
     {
         if (!$this->recipes->contains($recipe)) {
             $this->recipes[] = $recipe;
@@ -68,7 +68,7 @@ class Ingredients
         return $this;
     }
 
-    public function removeRecipe(Recipes $recipe): self
+    public function removeRecipe(Recipe $recipe): self
     {
         if ($this->recipes->contains($recipe)) {
             $this->recipes->removeElement($recipe);
